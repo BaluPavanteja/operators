@@ -1,0 +1,9 @@
+#python
+s=float(input("Speed\n"))
+d=float(input("Distance\n"))
+t=float(input("Time\n"))
+time=s/d
+if time>=t:
+    print("yes")
+else:
+    print("no")
