@@ -1,0 +1,5 @@
+#power of number
+x=int(input("Enter a base"))
+n=int(input("Enter the power"))
+p=pow(x,n)
+print(p)
