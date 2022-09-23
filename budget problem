@@ -1,0 +1,17 @@
+#python
+A=int(input(""))
+B=int(input(""))
+C=int(input(""))
+D=int(input(""))
+E=int(input(""))
+budget=15000
+acost=350.34
+bcost=230.90
+ccost=190.55
+dcost=125.30
+ecost=180.90
+if (acost*A+bcost*B+ccost*C+dcost*D+ecost*E)<=budget:
+    print("yes")
+else:
+    print("no")
+    
