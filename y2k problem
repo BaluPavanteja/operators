@@ -1,0 +1,9 @@
+#to return current age
+byear=int(input("Enter Year of Birth\n"))
+cyear=int(input("Enter Current Year\n"))
+if cyear>byear:
+    age=cyear-byear
+    print("Your age is ",age)
+else:
+    age=cyear-byear+100
+    print("Your age is ",age)
