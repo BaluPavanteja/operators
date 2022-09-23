@@ -1,0 +1,10 @@
+# to print greater number
+a=int(input("enter first number:"))
+b=int(input("enter the second number:"))
+
+if a>b:
+    print(f"{a} is greater than {b}")
+elif b>a:
+    print(f"{a} is less than {b}")
+else:
+    print(f"{a} is equal to {b}")
