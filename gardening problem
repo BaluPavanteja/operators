@@ -1,0 +1,7 @@
+column=int(input("columns:"))
+row=int(input("rows:"))
+number=int(input("enter tree number:"))
+if number<column or number%column==0 or number%column==1:
+    print("Yes")
+else:
+    print("No")
