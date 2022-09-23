@@ -1,0 +1,7 @@
+#to return product quotient remainder
+a=int(input("Enter First Number:"))
+b=int(input("Enter Second Number:"))
+
+print(a*b)
+print(a//b)
+print(a%b)
