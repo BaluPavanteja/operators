@@ -1,0 +1,8 @@
+#to find midpoint
+p=int(input())
+q=int(input())
+r=int(input())
+s=int(input())
+xm=(p+r)/2
+ym=(q+s)/2
+print(f"Binoy's house is Located at",(xm,ym))
