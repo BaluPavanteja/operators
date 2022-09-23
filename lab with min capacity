@@ -1,0 +1,8 @@
+#to return lab with min capacity
+x=int(input("Enter x\n"))
+y=int(input("Enter y\n"))
+z=int(input("Enter z\n"))
+t={x:'L1',y:'L2',z:'L3'}
+s=min(t)
+
+print(f"{t[s]} has the minimal seating capacity")
