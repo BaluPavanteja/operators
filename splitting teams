@@ -1,0 +1,5 @@
+n=int(input("enter the number of students in a class:"))
+t=int(input("entee the number of teams:"))
+team=n//t
+rem=n%t
+print(f"The number of students in each team is {team} and left out is {rem}")
