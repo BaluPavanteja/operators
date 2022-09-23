@@ -1,0 +1,20 @@
+#python
+entrance=input("Which entrance:\n")
+rail=int(input("Railing No:\n"))
+
+if entrance=="front":
+    if rail==1:
+        print("Left Handed")
+    elif rail==2:
+        print("Right Handed")
+    else:
+        print("Only two railings")
+
+if entrance=="rear":
+    if rail==1:
+        print("Right Handed")
+    elif rail==2:
+        print("Left Handed")
+    else:
+        print("Only two railings")
+        
