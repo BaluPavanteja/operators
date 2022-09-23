@@ -1,0 +1,25 @@
+student=input("Enter the student type\n")
+
+if student== 'MSH':
+    tfee=int(input("Enter tuition fee\n"))
+    hfee=int(input("Enter hostel fee\n"))
+    tot=tfee+hfee
+    print(f"The fees to be paid by the student is Rs.{'%.2f'%tot}")
+
+elif student=='MSDS':
+    tfee=int(input("Enter tuition fee\n"))
+    hfee=int(input("Enter bus fee\n"))
+    tot=tfee+hfee
+    print(f"The fees to be paid by the student is Rs.{'%.2f'%tot}")
+
+elif student=='MGSDS':
+    tfee=int(input("Enter tuition fee\n"))
+    hfee=int(input("Enter bus fee\n"))
+    tot=(1.5*tfee+hfee)
+    print(f"The fees to be paid by the student is Rs.{'%.2f'%tot}")
+
+elif student=='MGSH':
+    tfee=int(input("Enter tuition fee\n"))
+    hfee=int(input("Enter hostel fee\n"))
+    tot=(1.5*tfee+hfee)
+    print(f"The fees to be paid by the student is Rs.{'%.2f'%tot}")
